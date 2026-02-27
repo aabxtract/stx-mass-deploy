@@ -3,26 +3,6 @@ name = "stx-mass-deploy"
 description = "Mass deploy 100 contracts on mainnet"
 requirements = []
 
-[contracts.c31]
-path = "contracts/c31.clar"
-clarity_version = 2
-epoch = 2.4
-
-[contracts.c32]
-path = "contracts/c32.clar"
-clarity_version = 2
-epoch = 2.4
-
-[contracts.c33]
-path = "contracts/c33.clar"
-clarity_version = 2
-epoch = 2.4
-
-[contracts.c34]
-path = "contracts/c34.clar"
-clarity_version = 2
-epoch = 2.4
-
 [contracts.c35]
 path = "contracts/c35.clar"
 clarity_version = 2
@@ -345,11 +325,6 @@ epoch = 2.4
 
 [contracts.c99]
 path = "contracts/c99.clar"
-clarity_version = 2
-epoch = 2.4
-
-[contracts.c100]
-path = "contracts/c100.clar"
 clarity_version = 2
 epoch = 2.4
 
