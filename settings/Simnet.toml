@@ -1,0 +1,12 @@
+[network]
+name = "simnet"
+
+[accounts.deployer]
+mnemonic = "twice particular affair smile race adjust noise period gas trade update animal coin staff host tissue birth convince puzzle loan current pear initial broken"
+balance = 100_000_000_000_000
+# default STX address: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+
+[accounts.wallet_1]
+mnemonic = "sell invite acquire kitten bamboo drastic jelly vivid peace spawn twice guilt pave pen trash pretty park cube fragile unaware emerge tag dust upset"
+balance = 100_000_000_000_000
+# default STX address: ST1SJ3DTE5DN7X54YDH5D64R3BCB6A2AG2ZQ8YPD5

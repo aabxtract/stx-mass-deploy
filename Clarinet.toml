@@ -1,0 +1,505 @@
+[project]
+name = "stx-mass-deploy"
+description = "Mass deploy 100 contracts on mainnet"
+requirements = []
+
+[contracts.c1]
+path = "contracts/c1.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c2]
+path = "contracts/c2.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c3]
+path = "contracts/c3.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c4]
+path = "contracts/c4.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c5]
+path = "contracts/c5.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c6]
+path = "contracts/c6.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c7]
+path = "contracts/c7.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c8]
+path = "contracts/c8.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c9]
+path = "contracts/c9.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c10]
+path = "contracts/c10.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c11]
+path = "contracts/c11.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c12]
+path = "contracts/c12.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c13]
+path = "contracts/c13.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c14]
+path = "contracts/c14.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c15]
+path = "contracts/c15.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c16]
+path = "contracts/c16.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c17]
+path = "contracts/c17.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c18]
+path = "contracts/c18.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c19]
+path = "contracts/c19.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c20]
+path = "contracts/c20.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c21]
+path = "contracts/c21.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c22]
+path = "contracts/c22.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c23]
+path = "contracts/c23.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c24]
+path = "contracts/c24.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c25]
+path = "contracts/c25.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c26]
+path = "contracts/c26.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c27]
+path = "contracts/c27.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c28]
+path = "contracts/c28.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c29]
+path = "contracts/c29.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c30]
+path = "contracts/c30.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c31]
+path = "contracts/c31.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c32]
+path = "contracts/c32.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c33]
+path = "contracts/c33.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c34]
+path = "contracts/c34.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c35]
+path = "contracts/c35.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c36]
+path = "contracts/c36.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c37]
+path = "contracts/c37.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c38]
+path = "contracts/c38.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c39]
+path = "contracts/c39.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c40]
+path = "contracts/c40.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c41]
+path = "contracts/c41.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c42]
+path = "contracts/c42.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c43]
+path = "contracts/c43.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c44]
+path = "contracts/c44.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c45]
+path = "contracts/c45.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c46]
+path = "contracts/c46.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c47]
+path = "contracts/c47.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c48]
+path = "contracts/c48.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c49]
+path = "contracts/c49.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c50]
+path = "contracts/c50.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c51]
+path = "contracts/c51.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c52]
+path = "contracts/c52.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c53]
+path = "contracts/c53.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c54]
+path = "contracts/c54.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c55]
+path = "contracts/c55.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c56]
+path = "contracts/c56.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c57]
+path = "contracts/c57.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c58]
+path = "contracts/c58.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c59]
+path = "contracts/c59.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c60]
+path = "contracts/c60.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c61]
+path = "contracts/c61.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c62]
+path = "contracts/c62.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c63]
+path = "contracts/c63.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c64]
+path = "contracts/c64.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c65]
+path = "contracts/c65.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c66]
+path = "contracts/c66.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c67]
+path = "contracts/c67.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c68]
+path = "contracts/c68.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c69]
+path = "contracts/c69.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c70]
+path = "contracts/c70.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c71]
+path = "contracts/c71.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c72]
+path = "contracts/c72.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c73]
+path = "contracts/c73.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c74]
+path = "contracts/c74.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c75]
+path = "contracts/c75.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c76]
+path = "contracts/c76.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c77]
+path = "contracts/c77.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c78]
+path = "contracts/c78.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c79]
+path = "contracts/c79.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c80]
+path = "contracts/c80.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c81]
+path = "contracts/c81.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c82]
+path = "contracts/c82.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c83]
+path = "contracts/c83.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c84]
+path = "contracts/c84.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c85]
+path = "contracts/c85.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c86]
+path = "contracts/c86.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c87]
+path = "contracts/c87.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c88]
+path = "contracts/c88.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c89]
+path = "contracts/c89.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c90]
+path = "contracts/c90.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c91]
+path = "contracts/c91.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c92]
+path = "contracts/c92.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c93]
+path = "contracts/c93.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c94]
+path = "contracts/c94.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c95]
+path = "contracts/c95.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c96]
+path = "contracts/c96.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c97]
+path = "contracts/c97.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c98]
+path = "contracts/c98.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c99]
+path = "contracts/c99.clar"
+clarity_version = 2
+epoch = 2.4
+
+[contracts.c100]
+path = "contracts/c100.clar"
+clarity_version = 2
+epoch = 2.4
+
