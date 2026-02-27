@@ -1,5 +1,5 @@
 for ($i = 1; $i -le 100; $i++) {
-    $content = @"
+  $content = @"
 ;; Simple Number Storage Contract #$i
 ;; Stores a single number that any user can set and read
 
@@ -33,9 +33,16 @@ for ($i = 1; $i -le 100; $i++) {
   (ok u$i)
 )
 "@
-    $filePath = "contracts\c$i.clar"
-    Set-Content -Path $filePath -Value $content -NoNewline
-    Write-Host "Created c$i.clar"
+  # Convert CRLF to LF
+  $content = $content -replace "`r`n", "`n"
+  $filePath = "contracts\c$i.clar"
+  # Write with no BOM and LF line endings
+  $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
+  [System.IO.File]::WriteAllText((Resolve-Path $filePath -ErrorAction SilentlyContinue).Path, $content, $utf8NoBom)
+  if (-not (Test-Path $filePath)) {
+    [System.IO.File]::WriteAllText("$PWD\$filePath", $content, $utf8NoBom)
+  }
+  Write-Host "Fixed c$i.clar (LF)"
 }
 
-Write-Host "`nDone! All 100 contracts generated."
+Write-Host "`nDone! All 100 contracts regenerated with LF line endings."
