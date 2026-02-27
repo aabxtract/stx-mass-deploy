@@ -1,12 +1,15 @@
 [network]
 name = "devnet"
+deployment_fee_rate = 10
 
 [accounts.deployer]
-mnemonic = "twice particular affair smile race adjust noise period gas trade update animal coin staff host tissue birth convince puzzle loan current pear initial broken"
+mnemonic = "twice kind fence tip hidden tilt action fragile skin nothing glory cousin green tomorrow spring wrist shed math olympic multiply hip blue scout claw"
 balance = 100_000_000_000_000
-# default STX address: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
 
 [accounts.wallet_1]
-mnemonic = "sell invite acquire kitten bamboo drastic jelly vivid peace spawn twice guilt pave pen trash pretty park cube fragile unaware emerge tag dust upset"
+mnemonic = "sell invite acquire kitten bamboo drastic jelly vivid peace spawn twice guilt pave pen trash pretty park cube fragile unaware remain midnight betray rebuild"
 balance = 100_000_000_000_000
-# default STX address: ST1SJ3DTE5DN7X54YDH5D64R3BCB6A2AG2ZQ8YPD5
+
+[devnet]
+disable_stacks_explorer = false
+disable_stacks_api = false
