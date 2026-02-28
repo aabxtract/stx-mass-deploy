@@ -1,10 +1,10 @@
-# 🚀 STX Mass Deploy
+# STX Mass Deploy
 
 > A hands-on experiment in mass-deploying Clarity smart contracts on the Stacks blockchain — built to learn the ropes of contract deployment, tooling, and security fundamentals.
 
 ---
 
-## 📖 Overview
+## Overview
 
 This project is a **learning-focused initiative** to explore the end-to-end process of deploying smart contracts at scale on the [Stacks](https://www.stacks.co/) blockchain. By mass-deploying 100 simple Clarity contracts, the goal is to deeply understand:
 
@@ -13,7 +13,7 @@ This project is a **learning-focused initiative** to explore the end-to-end proc
 - **Mainnet deployment workflows** — from local development to live chain execution
 - **Stacks security protocols** — how the network validates, processes, and secures smart contract deployments
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 stx-mass-deploy/
@@ -34,7 +34,7 @@ stx-mass-deploy/
 └── README.md
 ```
 
-## 📝 Contracts
+## Contracts
 
 Each contract is a minimal Clarity smart contract that stores and retrieves a unique number. This simplicity is intentional — the focus here is on **deployment mechanics**, not contract complexity.
 
@@ -54,7 +54,7 @@ Each contract is a minimal Clarity smart contract that stores and retrieves a un
 )
 ```
 
-## ⚡ Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -91,7 +91,7 @@ mnemonic = "your twelve word seed phrase goes here"
 balance = 2038000
 ```
 
-> ⚠️ **Never commit real mnemonics to a public repository.** This project is for learning only.
+> **Never commit real mnemonics to a public repository.** This project is for learning only.
 
 ### 4. Deploy to Mainnet
 
@@ -101,7 +101,7 @@ clarinet deployments apply --mainnet
 
 Clarinet will display the deployment plan, total cost, and estimated duration before asking for confirmation.
 
-## 🔐 Stacks Security Protocols — Key Learnings
+## Stacks Security Protocols — Key Learnings
 
 ### Proof of Transfer (PoX)
 
@@ -141,7 +141,7 @@ Every contract deployment goes through:
 3. **Cost analysis** — Execution costs are calculated and bounded
 4. **Consensus inclusion** — The transaction is included in a block through PoX consensus
 
-## 📊 Deployment Notes
+## Deployment Notes
 
 ### Cost Breakdown
 
@@ -156,7 +156,7 @@ Every contract deployment goes through:
 3. **Incremental deployment** — When deployments partially fail, remove already-deployed contracts from `Clarinet.toml` and the deployment plan before retrying.
 4. **Nonce management** — Failed transactions can consume nonces, requiring careful tracking when redeploying.
 
-## 🔗 Resources
+##  Resources
 
 - [Stacks Documentation](https://docs.stacks.co/)
 - [Clarity Language Reference](https://docs.stacks.co/clarity/language-overview)
@@ -164,10 +164,10 @@ Every contract deployment goes through:
 - [Stacks Explorer](https://explorer.stacks.co/)
 - [Proof of Transfer Whitepaper](https://www.stacks.co/pox)
 
-## 📄 License
+##  License
 
 This project is for educational purposes. Use at your own risk on mainnet.
 
 ---
 
-*Built with curiosity, deployed with Clarinet.* 🧡
+*Built with curiosity, deployed with Clarinet.* 
