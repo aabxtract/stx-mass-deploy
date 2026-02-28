@@ -2,203 +2,203 @@
 name = "stx-mass-deploy"
 description = "Mass deploy 100 contracts on mainnet"
 requirements = []
-[contracts.contract31]
-path = "contracts/contract31.clar"
+[contracts.crt31]
+path = "contracts/crt31.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract32]
-path = "contracts/contract32.clar"
+[contracts.crt32]
+path = "contracts/crt32.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract33]
-path = "contracts/contract33.clar"
+[contracts.crt33]
+path = "contracts/crt33.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract34]
-path = "contracts/contract34.clar"
+[contracts.crt34]
+path = "contracts/crt34.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract35]
-path = "contracts/contract35.clar"
+[contracts.crt35]
+path = "contracts/crt35.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract36]
-path = "contracts/contract36.clar"
+[contracts.crt36]
+path = "contracts/crt36.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract37]
-path = "contracts/contract37.clar"
+[contracts.crt37]
+path = "contracts/crt37.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract38]
-path = "contracts/contract38.clar"
+[contracts.crt38]
+path = "contracts/crt38.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract39]
-path = "contracts/contract39.clar"
+[contracts.crt39]
+path = "contracts/crt39.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract40]
-path = "contracts/contract40.clar"
+[contracts.crt40]
+path = "contracts/crt40.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract41]
-path = "contracts/contract41.clar"
+[contracts.crt41]
+path = "contracts/crt41.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract42]
-path = "contracts/contract42.clar"
+[contracts.crt42]
+path = "contracts/crt42.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract43]
-path = "contracts/contract43.clar"
+[contracts.crt43]
+path = "contracts/crt43.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract44]
-path = "contracts/contract44.clar"
+[contracts.crt44]
+path = "contracts/crt44.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract45]
-path = "contracts/contract45.clar"
+[contracts.crt45]
+path = "contracts/crt45.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract46]
-path = "contracts/contract46.clar"
+[contracts.crt46]
+path = "contracts/crt46.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract47]
-path = "contracts/contract47.clar"
+[contracts.crt47]
+path = "contracts/crt47.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract48]
-path = "contracts/contract48.clar"
+[contracts.crt48]
+path = "contracts/crt48.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract49]
-path = "contracts/contract49.clar"
+[contracts.crt49]
+path = "contracts/crt49.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract50]
-path = "contracts/contract50.clar"
+[contracts.crt50]
+path = "contracts/crt50.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract51]
-path = "contracts/contract51.clar"
+[contracts.crt51]
+path = "contracts/crt51.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract52]
-path = "contracts/contract52.clar"
+[contracts.crt52]
+path = "contracts/crt52.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract53]
-path = "contracts/contract53.clar"
+[contracts.crt53]
+path = "contracts/crt53.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract54]
-path = "contracts/contract54.clar"
+[contracts.crt54]
+path = "contracts/crt54.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract55]
-path = "contracts/contract55.clar"
+[contracts.crt55]
+path = "contracts/crt55.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract56]
-path = "contracts/contract56.clar"
+[contracts.crt56]
+path = "contracts/crt56.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract57]
-path = "contracts/contract57.clar"
+[contracts.crt57]
+path = "contracts/crt57.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract58]
-path = "contracts/contract58.clar"
+[contracts.crt58]
+path = "contracts/crt58.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract59]
-path = "contracts/contract59.clar"
+[contracts.crt59]
+path = "contracts/crt59.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract60]
-path = "contracts/contract60.clar"
+[contracts.crt60]
+path = "contracts/crt60.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract61]
-path = "contracts/contract61.clar"
+[contracts.crt61]
+path = "contracts/crt61.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract62]
-path = "contracts/contract62.clar"
+[contracts.crt62]
+path = "contracts/crt62.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract63]
-path = "contracts/contract63.clar"
+[contracts.crt63]
+path = "contracts/crt63.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract64]
-path = "contracts/contract64.clar"
+[contracts.crt64]
+path = "contracts/crt64.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract65]
-path = "contracts/contract65.clar"
+[contracts.crt65]
+path = "contracts/crt65.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract66]
-path = "contracts/contract66.clar"
+[contracts.crt66]
+path = "contracts/crt66.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract67]
-path = "contracts/contract67.clar"
+[contracts.crt67]
+path = "contracts/crt67.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract68]
-path = "contracts/contract68.clar"
+[contracts.crt68]
+path = "contracts/crt68.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract69]
-path = "contracts/contract69.clar"
+[contracts.crt69]
+path = "contracts/crt69.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract70]
-path = "contracts/contract70.clar"
+[contracts.crt70]
+path = "contracts/crt70.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract71]
-path = "contracts/contract71.clar"
+[contracts.crt71]
+path = "contracts/crt71.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract72]
-path = "contracts/contract72.clar"
+[contracts.crt72]
+path = "contracts/crt72.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract73]
-path = "contracts/contract73.clar"
+[contracts.crt73]
+path = "contracts/crt73.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract74]
-path = "contracts/contract74.clar"
+[contracts.crt74]
+path = "contracts/crt74.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract75]
-path = "contracts/contract75.clar"
+[contracts.crt75]
+path = "contracts/crt75.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract76]
-path = "contracts/contract76.clar"
+[contracts.crt76]
+path = "contracts/crt76.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract77]
-path = "contracts/contract77.clar"
+[contracts.crt77]
+path = "contracts/crt77.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract78]
-path = "contracts/contract78.clar"
+[contracts.crt78]
+path = "contracts/crt78.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract79]
-path = "contracts/contract79.clar"
+[contracts.crt79]
+path = "contracts/crt79.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.contract80]
-path = "contracts/contract80.clar"
+[contracts.crt80]
+path = "contracts/crt80.clar"
 clarity_version = 2
 epoch = 2.4

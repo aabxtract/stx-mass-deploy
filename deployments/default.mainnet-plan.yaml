@@ -9,356 +9,356 @@ plan:
     - id: 0
       transactions:
         - contract-publish:
-            contract-name: contract31
+            contract-name: crt31
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract31.clar"
+            path: "contracts\\crt31.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract32
+            contract-name: crt32
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract32.clar"
+            path: "contracts\\crt32.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract33
+            contract-name: crt33
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract33.clar"
+            path: "contracts\\crt33.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract34
+            contract-name: crt34
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract34.clar"
+            path: "contracts\\crt34.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract35
+            contract-name: crt35
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract35.clar"
+            path: "contracts\\crt35.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract36
+            contract-name: crt36
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract36.clar"
+            path: "contracts\\crt36.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract37
+            contract-name: crt37
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract37.clar"
+            path: "contracts\\crt37.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract38
+            contract-name: crt38
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract38.clar"
+            path: "contracts\\crt38.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract39
+            contract-name: crt39
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract39.clar"
+            path: "contracts\\crt39.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract40
+            contract-name: crt40
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract40.clar"
+            path: "contracts\\crt40.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract41
+            contract-name: crt41
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract41.clar"
+            path: "contracts\\crt41.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract42
+            contract-name: crt42
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract42.clar"
+            path: "contracts\\crt42.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract43
+            contract-name: crt43
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract43.clar"
+            path: "contracts\\crt43.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract44
+            contract-name: crt44
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract44.clar"
+            path: "contracts\\crt44.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract45
+            contract-name: crt45
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract45.clar"
+            path: "contracts\\crt45.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract46
+            contract-name: crt46
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract46.clar"
+            path: "contracts\\crt46.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract47
+            contract-name: crt47
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract47.clar"
+            path: "contracts\\crt47.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract48
+            contract-name: crt48
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract48.clar"
+            path: "contracts\\crt48.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract49
+            contract-name: crt49
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract49.clar"
+            path: "contracts\\crt49.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract50
+            contract-name: crt50
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract50.clar"
+            path: "contracts\\crt50.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract51
+            contract-name: crt51
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract51.clar"
+            path: "contracts\\crt51.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract52
+            contract-name: crt52
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract52.clar"
+            path: "contracts\\crt52.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract53
+            contract-name: crt53
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract53.clar"
+            path: "contracts\\crt53.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract54
+            contract-name: crt54
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract54.clar"
+            path: "contracts\\crt54.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract55
+            contract-name: crt55
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract55.clar"
+            path: "contracts\\crt55.clar"
             anchor-block-only: true
             clarity-version: 2
       epoch: "2.4"
     - id: 1
       transactions:
         - contract-publish:
-            contract-name: contract56
+            contract-name: crt56
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract56.clar"
+            path: "contracts\\crt56.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract57
+            contract-name: crt57
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract57.clar"
+            path: "contracts\\crt57.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract58
+            contract-name: crt58
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract58.clar"
+            path: "contracts\\crt58.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract59
+            contract-name: crt59
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract59.clar"
+            path: "contracts\\crt59.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract60
+            contract-name: crt60
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract60.clar"
+            path: "contracts\\crt60.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract61
+            contract-name: crt61
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract61.clar"
+            path: "contracts\\crt61.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract62
+            contract-name: crt62
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract62.clar"
+            path: "contracts\\crt62.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract63
+            contract-name: crt63
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract63.clar"
+            path: "contracts\\crt63.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract64
+            contract-name: crt64
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract64.clar"
+            path: "contracts\\crt64.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract65
+            contract-name: crt65
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract65.clar"
+            path: "contracts\\crt65.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract66
+            contract-name: crt66
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract66.clar"
+            path: "contracts\\crt66.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract67
+            contract-name: crt67
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract67.clar"
+            path: "contracts\\crt67.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract68
+            contract-name: crt68
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract68.clar"
+            path: "contracts\\crt68.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract69
+            contract-name: crt69
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract69.clar"
+            path: "contracts\\crt69.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract70
+            contract-name: crt70
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract70.clar"
+            path: "contracts\\crt70.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract71
+            contract-name: crt71
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract71.clar"
+            path: "contracts\\crt71.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract72
+            contract-name: crt72
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract72.clar"
+            path: "contracts\\crt72.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract73
+            contract-name: crt73
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract73.clar"
+            path: "contracts\\crt73.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract74
+            contract-name: crt74
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract74.clar"
+            path: "contracts\\crt74.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract75
+            contract-name: crt75
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract75.clar"
+            path: "contracts\\crt75.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract76
+            contract-name: crt76
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract76.clar"
+            path: "contracts\\crt76.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract77
+            contract-name: crt77
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract77.clar"
+            path: "contracts\\crt77.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract78
+            contract-name: crt78
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract78.clar"
+            path: "contracts\\crt78.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract79
+            contract-name: crt79
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract79.clar"
+            path: "contracts\\crt79.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
-            contract-name: contract80
+            contract-name: crt80
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
             cost: 1000
-            path: "contracts\\contract80.clar"
+            path: "contracts\\crt80.clar"
             anchor-block-only: true
             clarity-version: 2
       epoch: "2.4"
