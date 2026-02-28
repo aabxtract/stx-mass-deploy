@@ -18,9 +18,9 @@ This project is a **learning-focused initiative** to explore the end-to-end proc
 ```
 stx-mass-deploy/
 ├── Clarinet.toml                          # Project manifest — defines which contracts are active
-├── contracts/                             # 100 Clarity smart contracts (crt1.clar – crt100.clar)
-│   ├── crt1.clar
-│   ├── crt2.clar
+├── contracts/                             # 100 Clarity smart contracts (create1.clar – create100.clar)
+│   ├── create1.clar
+│   ├── create2.clar
 │   └── ...
 ├── deployments/
 │   └── default.mainnet-plan.yaml          # Mainnet deployment plan with batched transactions
@@ -39,7 +39,7 @@ stx-mass-deploy/
 Each contract is a minimal Clarity smart contract that stores and retrieves a unique number. This simplicity is intentional — the focus here is on **deployment mechanics**, not contract complexity.
 
 ```clarity
-;; Example: crt42.clar
+;; Example: create42.clar
 (define-data-var storedNumber uint u42)
 
 (define-read-only (get-number)
@@ -75,8 +75,8 @@ This creates 100 Clarity contracts in the `contracts/` directory, each with a un
 Edit `Clarinet.toml` to include only the contracts you want to deploy. Each contract entry looks like:
 
 ```toml
-[contracts.crt42]
-path = "contracts/crt42.clar"
+[contracts.create42]
+path = "contracts/create42.clar"
 clarity_version = 2
 epoch = 2.4
 ```
