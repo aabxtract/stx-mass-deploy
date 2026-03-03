@@ -11,210 +11,210 @@ plan:
         - contract-publish:
             contract-name: creative1
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
-            cost: 1000
+            cost: 25
             path: "contracts/creative1.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
             contract-name: creative2
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
-            cost: 1000
+            cost: 25
             path: "contracts/creative2.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
             contract-name: creative3
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
-            cost: 1000
+            cost: 25
             path: "contracts/creative3.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
             contract-name: creative4
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
-            cost: 1000
+            cost: 25
             path: "contracts/creative4.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
             contract-name: creative5
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
-            cost: 1000
+            cost: 25
             path: "contracts/creative5.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
             contract-name: creative6
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
-            cost: 1000
+            cost: 25
             path: "contracts/creative6.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
             contract-name: creative7
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
-            cost: 1000
+            cost: 25
             path: "contracts/creative7.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
             contract-name: creative8
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
-            cost: 1000
+            cost: 25
             path: "contracts/creative8.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
             contract-name: creative9
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
-            cost: 1000
+            cost: 25
             path: "contracts/creative9.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
             contract-name: creative10
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
-            cost: 1000
+            cost: 25
             path: "contracts/creative10.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
             contract-name: creative11
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
-            cost: 1000
+            cost: 25
             path: "contracts/creative11.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
             contract-name: creative12
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
-            cost: 1000
+            cost: 25
             path: "contracts/creative12.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
             contract-name: creative13
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
-            cost: 1000
+            cost: 25
             path: "contracts/creative13.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
             contract-name: creative14
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
-            cost: 1000
+            cost: 25
             path: "contracts/creative14.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
             contract-name: creative15
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
-            cost: 1000
+            cost: 25
             path: "contracts/creative15.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
             contract-name: creative16
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
-            cost: 1000
+            cost: 25
             path: "contracts/creative16.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
             contract-name: creative17
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
-            cost: 1000
+            cost: 25
             path: "contracts/creative17.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
             contract-name: creative18
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
-            cost: 1000
+            cost: 25
             path: "contracts/creative18.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
             contract-name: creative19
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
-            cost: 1000
+            cost: 25
             path: "contracts/creative19.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
             contract-name: creative20
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
-            cost: 1000
+            cost: 25
             path: "contracts/creative20.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
             contract-name: creative21
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
-            cost: 1000
+            cost: 25
             path: "contracts/creative21.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
             contract-name: creative22
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
-            cost: 1000
+            cost: 25
             path: "contracts/creative22.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
             contract-name: creative23
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
-            cost: 1000
+            cost: 25
             path: "contracts/creative23.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
             contract-name: creative24
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
-            cost: 1000
+            cost: 25
             path: "contracts/creative24.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
             contract-name: creative25
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
-            cost: 1000
+            cost: 25
             path: "contracts/creative25.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
             contract-name: creative26
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
-            cost: 1000
+            cost: 25
             path: "contracts/creative26.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
             contract-name: creative27
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
-            cost: 1000
+            cost: 25
             path: "contracts/creative27.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
             contract-name: creative28
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
-            cost: 1000
+            cost: 25
             path: "contracts/creative28.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
             contract-name: creative29
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
-            cost: 1000
+            cost: 25
             path: "contracts/creative29.clar"
             anchor-block-only: true
             clarity-version: 2
         - contract-publish:
             contract-name: creative30
             expected-sender: SP3JDRV4QW9SYFSFGT2V1RQ3S1T7CBYG21R29GD8M
-            cost: 1000
+            cost: 25
             path: "contracts/creative30.clar"
             anchor-block-only: true
             clarity-version: 2
