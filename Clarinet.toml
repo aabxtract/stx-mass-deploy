@@ -1,104 +1,124 @@
 [project]
 name = "stx-mass-deploy"
-description = "Mass deploy 100 contracts on mainnet"
+description = "Mass deploy 30 contracts on mainnet"
 requirements = []
-[contracts.create56]
-path = "contracts/create56.clar"
+[contracts.creative1]
+path = "contracts/creative1.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.create57]
-path = "contracts/create57.clar"
+[contracts.creative2]
+path = "contracts/creative2.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.create58]
-path = "contracts/create58.clar"
+[contracts.creative3]
+path = "contracts/creative3.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.create59]
-path = "contracts/create59.clar"
+[contracts.creative4]
+path = "contracts/creative4.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.create60]
-path = "contracts/create60.clar"
+[contracts.creative5]
+path = "contracts/creative5.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.create61]
-path = "contracts/create61.clar"
+[contracts.creative6]
+path = "contracts/creative6.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.create62]
-path = "contracts/create62.clar"
+[contracts.creative7]
+path = "contracts/creative7.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.create63]
-path = "contracts/create63.clar"
+[contracts.creative8]
+path = "contracts/creative8.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.create64]
-path = "contracts/create64.clar"
+[contracts.creative9]
+path = "contracts/creative9.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.create65]
-path = "contracts/create65.clar"
+[contracts.creative10]
+path = "contracts/creative10.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.create66]
-path = "contracts/create66.clar"
+[contracts.creative11]
+path = "contracts/creative11.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.create67]
-path = "contracts/create67.clar"
+[contracts.creative12]
+path = "contracts/creative12.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.create68]
-path = "contracts/create68.clar"
+[contracts.creative13]
+path = "contracts/creative13.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.create69]
-path = "contracts/create69.clar"
+[contracts.creative14]
+path = "contracts/creative14.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.create70]
-path = "contracts/create70.clar"
+[contracts.creative15]
+path = "contracts/creative15.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.create71]
-path = "contracts/create71.clar"
+[contracts.creative16]
+path = "contracts/creative16.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.create72]
-path = "contracts/create72.clar"
+[contracts.creative17]
+path = "contracts/creative17.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.create73]
-path = "contracts/create73.clar"
+[contracts.creative18]
+path = "contracts/creative18.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.create74]
-path = "contracts/create74.clar"
+[contracts.creative19]
+path = "contracts/creative19.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.create75]
-path = "contracts/create75.clar"
+[contracts.creative20]
+path = "contracts/creative20.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.create76]
-path = "contracts/create76.clar"
+[contracts.creative21]
+path = "contracts/creative21.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.create77]
-path = "contracts/create77.clar"
+[contracts.creative22]
+path = "contracts/creative22.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.create78]
-path = "contracts/create78.clar"
+[contracts.creative23]
+path = "contracts/creative23.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.create79]
-path = "contracts/create79.clar"
+[contracts.creative24]
+path = "contracts/creative24.clar"
 clarity_version = 2
 epoch = 2.4
-[contracts.create80]
-path = "contracts/create80.clar"
+[contracts.creative25]
+path = "contracts/creative25.clar"
+clarity_version = 2
+epoch = 2.4
+[contracts.creative26]
+path = "contracts/creative26.clar"
+clarity_version = 2
+epoch = 2.4
+[contracts.creative27]
+path = "contracts/creative27.clar"
+clarity_version = 2
+epoch = 2.4
+[contracts.creative28]
+path = "contracts/creative28.clar"
+clarity_version = 2
+epoch = 2.4
+[contracts.creative29]
+path = "contracts/creative29.clar"
+clarity_version = 2
+epoch = 2.4
+[contracts.creative30]
+path = "contracts/creative30.clar"
 clarity_version = 2
 epoch = 2.4
