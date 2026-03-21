@@ -1,0 +1,15 @@
+{
+  "name": "clarity-store-interact",
+  "version": "1.0.0",
+  "description": "Script to interact with the clarity-store smart contract",
+  "main": "interact.js",
+  "scripts": {
+    "start": "ts-node interact.ts"
+  },
+  "dependencies": {
+    "@stacks/network": "^6.10.0",
+    "@stacks/transactions": "^6.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
