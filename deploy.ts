@@ -5,22 +5,45 @@ import {
   ClarityVersion,
 } from '@stacks/transactions';
 import { StacksMainnet } from '@stacks/network';
+import { generateWallet, deriveAccount } from '@stacks/wallet-sdk';
 import * as fs from 'fs';
 import * as path from 'path';
 
 // Using MAINNET configuration
 const network = new StacksMainnet();
 
-// =======================================================
-// REPLACE WITH YOUR ACTUAL MAINNET SENDER PRIVATE KEY
-const senderKey = 'REPLACE_ME_WITH_YOUR_PRIVATE_KEY';
-// =======================================================
-
 const contractName = 'clarity-store';
 
+/**
+ * Extract mnemonic from Mainnet.toml
+ */
+function getMnemonicFromConfig(): string | null {
+  const configPath = path.join(__dirname, 'settings', 'Mainnet.toml');
+  if (!fs.existsSync(configPath)) return null;
+  const content = fs.readFileSync(configPath, 'utf8');
+  const match = content.match(/mnemonic\s*=\s*"([^"]+)"/);
+  return match ? match[1] : null;
+}
+
 async function deployContract() {
-  console.log(`Starting deployment script for ${contractName}...`);
+  console.log(`Starting automated deployment for ${contractName}...`);
   
+  const mnemonic = getMnemonicFromConfig();
+  if (!mnemonic) {
+    console.error('Error: Mnemonic not found in settings/Mainnet.toml');
+    process.exit(1);
+  }
+
+  // Derive the private key from the mnemonic
+  const wallet = await generateWallet({ mnemonic, password: '' });
+  const account = deriveAccount({
+    hierarchicalDeterministicWallet: wallet,
+    index: 0,
+  });
+  const senderKey = account.stxPrivateKey;
+
+  console.log('Private key derived successfully!');
+
   // Read the Clarity file from the /contracts folder
   const codeBody = fs.readFileSync(path.join(__dirname, 'contracts', 'clarity-store.clar'), 'utf8');
 
@@ -31,8 +54,7 @@ async function deployContract() {
     senderKey,
     network,
     anchorMode: AnchorMode.Any,
-    clarityVersion: ClarityVersion.Clarity2, // Stacks 2.4/Nakamoto compliance
-    // fee: 150000, // Optional: uncomment and adjust fee manually if network is congested
+    clarityVersion: ClarityVersion.Clarity2,
   };
 
   try {
@@ -41,10 +63,14 @@ async function deployContract() {
 
     const broadcastResponse = await broadcastTransaction(transaction, network);
     console.log('\n✅ Deployment Broadcast Response:');
-    console.log(broadcastResponse);
+    console.dir(broadcastResponse, { depth: null });
     
-    console.log('\nTrack it in the explorer:');
-    console.log(`https://explorer.hiro.so/txid/${broadcastResponse.txid}?chain=mainnet`);
+    if (broadcastResponse.txid) {
+      console.log('\nTrack it in the explorer:');
+      console.log(`https://explorer.hiro.so/txid/${broadcastResponse.txid}?chain=mainnet`);
+    } else {
+      console.error('Broadcast failed or no TXID returned.');
+    }
   } catch (err) {
     console.error('Deployment error:', err);
   }
