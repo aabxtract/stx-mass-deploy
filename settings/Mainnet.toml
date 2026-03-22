@@ -5,4 +5,4 @@ deployment_fee_rate = 10
 
 [accounts.deployer]
 mnemonic = "small flight churn dizzy urban math health satoshi scissors exchange donate city possible bicycle remove trip expire demand question air couple position start mixture"
-balance = 20380
+balance = 140080

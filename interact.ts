@@ -3,35 +3,36 @@ import {
   broadcastTransaction,
   AnchorMode,
   stringAsciiCV,
-  stringUtf8CV,
+  uintCV,
 } from '@stacks/transactions';
 import { StacksMainnet, StacksTestnet } from '@stacks/network';
 
-// Toggle this based on your deployment network
-// const network = new StacksMainnet();
-const network = new StacksTestnet();
+// Using MAINNET configuration since it's going to be on mainnet
+const network = new StacksMainnet();
+// Optional: If you ever want to revert to testnet:
+// const network = new StacksTestnet();
 
 // REPLACE THESE VALUES
 const senderKey = 'YOUR_PRIVATE_KEY_HERE'; // The private key of the sender/owner
-const contractAddress = 'YOUR_CONTRACT_ADDRESS'; // e.g. ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+const contractAddress = 'YOUR_CONTRACT_ADDRESS'; // e.g. SP... (Your STX Mainnet Address)
 const contractName = 'clarity-store';
 
 /**
- * Call the `set-value` function to add a key-value pair to the store.
+ * Call the `set-student` function to add a student's name and age to the store.
  */
-async function setValue(key: string, value: string) {
+async function setStudent(name: string, age: number) {
   const txOptions = {
     contractAddress,
     contractName,
-    functionName: 'set-value',
-    functionArgs: [stringAsciiCV(key), stringUtf8CV(value)],
+    functionName: 'set-student',
+    functionArgs: [stringAsciiCV(name), uintCV(age)],
     senderKey,
     validateWithAbi: true,
     network,
     anchorMode: AnchorMode.Any,
   };
 
-  console.log(`Setting value for key "${key}"...`);
+  console.log(`Setting student record: Name: "${name}", Age: ${age}...`);
   const transaction = await makeContractCall(txOptions);
   
   const broadcastResponse = await broadcastTransaction(transaction, network);
@@ -39,15 +40,14 @@ async function setValue(key: string, value: string) {
 }
 
 /**
- * Main execution. Update this to test other functions.
+ * Main execution.
  */
 async function main() {
-  console.log('Interacting with Clarity Store...');
+  console.log('Interacting with Student Clarity Store (MAINNET)...');
   
   // Example usage:
-  // Note: the key must be an ascii string max 64 chars
-  // Note: the value must be a utf8 string max 256 chars
-  await setValue('greeting', 'Hello World from Stacks.js!');
+  // Note: the name must be an ascii string max 64 chars
+  await setStudent('Alice', 20);
 }
 
 main().catch(console.error);

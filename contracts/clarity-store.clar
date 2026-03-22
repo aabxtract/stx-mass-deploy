@@ -1,20 +1,20 @@
-;; ClarityStore
-;; Key-value storage with ownership clarity on Stacks
+;; StudentStore
+;; Stores student records (name and age) with ownership clarity
 
 ;; ── Storage ──────────────────────────────────────────────────────────────
 
 (define-data-var contract-owner principal tx-sender)
 (define-data-var pending-owner (optional principal) none)
 
-(define-map store
-  { key: (string-ascii 64) }
-  { value: (string-utf8 256) }
+(define-map students
+  { name: (string-ascii 64) }
+  { age: uint }
 )
 
 ;; ── Events (via print) ───────────────────────────────────────────────────
 
-(define-private (emit-value-set (key (string-ascii 64)) (value (string-utf8 256)))
-  (print { event: "value-set", key: key, value: value })
+(define-private (emit-student-set (name (string-ascii 64)) (age uint))
+  (print { event: "student-set", name: name, age: age })
 )
 
 (define-private (emit-ownership-proposed (proposed principal))
@@ -33,35 +33,35 @@
 
 ;; ── Write (owner only) ───────────────────────────────────────────────────
 
-(define-public (set-value (key (string-ascii 64)) (value (string-utf8 256)))
+(define-public (set-student (name (string-ascii 64)) (age uint))
   (begin
     (asserts! (is-owner) (err u401))
-    (map-set store { key: key } { value: value })
-    (emit-value-set key value)
+    (map-set students { name: name } { age: age })
+    (emit-student-set name age)
     (ok true)
   )
 )
 
-(define-public (delete-value (key (string-ascii 64)))
+(define-public (delete-student (name (string-ascii 64)))
   (begin
     (asserts! (is-owner) (err u401))
-    (map-delete store { key: key })
-    (print { event: "value-deleted", key: key })
+    (map-delete students { name: name })
+    (print { event: "student-deleted", name: name })
     (ok true)
   )
 )
 
 ;; ── Read (anyone, free) ──────────────────────────────────────────────────
 
-(define-read-only (get-value (key (string-ascii 64)))
-  (match (map-get? store { key: key })
-    entry (ok (get value entry))
+(define-read-only (get-student (name (string-ascii 64)))
+  (match (map-get? students { name: name })
+    entry (ok (get age entry))
     (err u404)
   )
 )
 
-(define-read-only (has-key (key (string-ascii 64)))
-  (is-some (map-get? store { key: key }))
+(define-read-only (has-student (name (string-ascii 64)))
+  (is-some (map-get? students { name: name }))
 )
 
 (define-read-only (get-owner)

@@ -28,6 +28,19 @@ clarinet deployment apply --devnet
 ```
 *(adjust `--devnet` to `--testnet` or `--mainnet` as necessary)*
 
+## Direct Deployment (Alternative to Clarinet)
+
+If `clarinet deployment apply --mainnet` fails with a `RecvError` or panic, you can use the Stacks.js deployment script provided.
+
+### Configuration
+1. Open `deploy.ts`.
+2. Replace `REPLACE_ME_WITH_YOUR_PRIVATE_KEY` with your actual STX Mainnet private key (not the mnemonic).
+
+### Run Deployment
+```bash
+npm run deploy
+```
+
 ## Interaction using Node.js
 
 We provide a TypeScript script `interact.ts` for you to interact with your deployed contract directly using the `@stacks.js` libraries.
@@ -51,3 +64,4 @@ Open `interact.ts` and update the following placeholders:
 ```bash
 npm start
 ```
+
